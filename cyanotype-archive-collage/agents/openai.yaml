@@ -1,0 +1,13 @@
+interface:
+  display_name: 蓝晒档案拼贴
+  short_description: 提取画面核心元素，制作高留白、有序编排与复古打字机文字的蓝晒拼贴
+  default_prompt: 使用 $cyanotype-archive-collage 将这张图制作成高留白、有序排版的蓝晒档案拼贴，配复古打字机字体的简短介绍。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
